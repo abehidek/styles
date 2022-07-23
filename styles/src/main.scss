@@ -1,5 +1,7 @@
 @import "variables";
 @import "components/card";
+@import "components/button";
+
 html,
 body {
   padding: 0;
@@ -9,6 +11,8 @@ body {
 }
 
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -29,4 +33,3 @@ main {
   background: $base01;
   padding: 1rem 2.5rem;
 }
-
